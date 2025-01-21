@@ -545,7 +545,7 @@ html {
         text-align: center;
     }
 
-    .grid-container{
+    /* .grid-container{
         width: 80%;
         margin: 0 auto;
         justify-content: center;
@@ -556,7 +556,7 @@ html {
         width: 20%;
         /* height: 50%; */
         margin-left: -30px;
-    }
+    } */
 
 
 }
