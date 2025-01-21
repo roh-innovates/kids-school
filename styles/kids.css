@@ -270,7 +270,7 @@ html {
     cursor: pointer;
 }
 
-/* Grid section */
+/* Grid section ////////////////////////////////////////////////////////////*/
 .stories-title{
     font-weight: 700;
     font-size: 60px;
@@ -335,6 +335,21 @@ html {
     border-radius: 50px;
 }
 
+.date-sml{
+    background-color: #95B226;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    width: 207px;
+    height: 45px;
+    align-content: center;
+    border-radius: 50px;
+}
+
+.date-sml2{
+    background-color: #5D58F0;
+}
+
 .date-div{
     display: flex;
     text-align: center;
@@ -342,6 +357,23 @@ html {
     margin-top: -62px;
     margin-left: 40px;
     z-index: 1;
+}
+
+.date-sml-div{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: -55px;
+    margin-left: 40px;
+    z-index: 1;
+}
+
+.sml-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 44px ;
+    margin-right: 16px;
+    margin-top: 1px;
 }
 
 .four-box{
@@ -353,12 +385,15 @@ html {
 .box{
     background-color: white;
     border-radius: 16px;
-    width: 345px;
-    height: 358px;
+    max-width: 345px;
+    /* max-height: 358px; */
+    width: 100%;
+    /* height: 100%; */
 }
 
 .view-btn{
-    margin: 50px 0;
+    margin-top: 99px;
+    margin-bottom: 60px;
     background-color: black;
 }
 
@@ -367,10 +402,17 @@ html {
 }
 
 
-/* Responsive styles for mobile device */
+/* Responsive styles for mobile device////////////////////////////////////////////// */
 
 @media screen and (max-width:576px) {
 
+/* html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+} */
 
     .hide-on-mobile{
         display: none;
@@ -497,4 +539,24 @@ html {
         margin-top: 40px;
         margin-bottom: 63px;
     }
+
+    /* story section */
+    .stories-title{
+        text-align: center;
+    }
+
+    .grid-container{
+        width: 80%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .four-box{
+        width: 20%;
+        /* height: 50%; */
+        margin-left: -30px;
+    }
+
+
 }
