@@ -270,6 +270,102 @@ html {
     cursor: pointer;
 }
 
+/* Grid section */
+.stories-title{
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.grid{
+    background-image:     linear-gradient(to bottom, rgba(245, 255, 255, 0.02), rgba(254, 163, 1, 0.2)),
+    url(./bg-plusss.png);
+
+}
+
+.stories-title{
+    text-align: center;
+}
+
+.c-title{
+    font-weight: 700;
+    font-size: 28px;
+    margin-left: 45px;
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+.c-para{
+    font-size: 16px;
+    margin-left: 45px;
+    margin-right: 80px;
+    margin-top: -19px;
+    line-height: 30px;
+}
+
+.grid-container{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 1380px;
+    margin: 0 auto;
+}
+
+.big-box{
+    background-color: white;
+    width: 642px;
+    height: 748px;
+    border-radius: 16px;
+}
+
+.img-one{
+    width: 100%;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.date{
+    background-color: #3CD8E8;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    width: 207px;
+    height: 56px;
+    align-content: center;
+    border-radius: 50px;
+}
+
+.date-div{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: -62px;
+    margin-left: 40px;
+    z-index: 1;
+}
+
+.four-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.box{
+    background-color: white;
+    border-radius: 16px;
+    width: 345px;
+    height: 358px;
+}
+
+.view-btn{
+    margin: 50px 0;
+    background-color: black;
+}
+
+.btn3-div{
+    text-align: center;
+}
+
 
 /* Responsive styles for mobile device */
 
@@ -371,7 +467,7 @@ html {
 
     .curri-title{
         text-align: center;
-        font-size: 1.75rem;
+        font-size: 2em;
         font-weight: 700;
         margin-top: 10px;
         margin-bottom: 39px;
