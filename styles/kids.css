@@ -427,10 +427,6 @@ html {
     align-items: center;
 }
 
-.foot-lg{
-      
-}
-
 .f-para{
     width: 375px;
 }
@@ -447,6 +443,7 @@ html {
     width: 100%;
     max-height: 95px;
     height: 100%;
+    margin-top: 4px;
 }
 
 .foot-title1{
