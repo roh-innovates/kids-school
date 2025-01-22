@@ -62,6 +62,8 @@ html {
     margin: 0 auto;
 }
 
+
+
 .bag{
     width: 68px;
     height: 68px;
@@ -500,6 +502,23 @@ html {
     margin-right: 8px;
 }
 
+
+.marquee {
+    overflow: hidden;
+    width: 300px; /* Adjust width as needed */
+    height: 48px; /* Adjust height as needed */
+    text-align: center;
+    font-size: 1.3rem;
+    color: #ffb508;
+    font-weight: 700;
+    animation: scroll 4s linear infinite; /* Adjust speed as needed */
+}
+
+@keyframes scroll {
+    10% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
 /* Responsive styles for mobile device////////////////////////////////////////////////////////////////////////////// */
 
 @media screen and (max-width:576px) {
@@ -518,6 +537,14 @@ html, body {
 
     .nav-container{
         width: 100%;
+    }
+
+    .nav-border{
+        border: 1px solid orange;
+        height: 70px;
+        width: 101%;
+        border-left-width: 0px;
+        border-top: 0;
     }
     .banner-container{
         flex-direction: column-reverse;
@@ -723,5 +750,10 @@ html, body {
 
     .bag-kEdu{
         margin-left: 11px;
+    }
+
+    .marquee{
+        margin-top: -50px;
+        margin-bottom: 40px;
     }
 }
