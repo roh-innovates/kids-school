@@ -433,7 +433,74 @@ html {
     width: 375px;
 }
 
-/* Responsive styles for mobile device////////////////////////////////////////////// */
+
+/* Footer */
+
+.foot-container{
+    color: white;
+}
+
+.foot-lg{
+    max-width: 95px;
+    width: 100%;
+    max-height: 95px;
+    height: 100%;
+}
+
+.foot-title1{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 14px;
+}
+
+.foot-title2{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: -7px;
+}
+
+.foot-para{
+    font-size: 1.1rem;
+    max-width: 470px;
+    width: 100%;
+    margin-left: 7px;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+.foot-middle{
+    margin-top: 30px;
+    /* margin-right: 200px; */
+}
+
+.about-school{
+    font-weight: 600;
+    font-size: 1.35rem;
+}
+
+.about-item{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.about-item:hover{
+    cursor: pointer;
+}
+
+.foot-right{
+    margin-top: -80px;
+}
+
+.keep-touch{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.foot-img-icon{
+    margin-right: 8px;
+}
+
+/* Responsive styles for mobile device////////////////////////////////////////////////////////////////////////////// */
 
 @media screen and (max-width:576px) {
 
@@ -622,5 +689,39 @@ html, body {
     .view-btn{
         margin-top: 35px;
         border-radius: .8rem;
+        
+    }
+
+    /* foot section */
+    .foot-container{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly
+    }
+
+    justify-content: ;
+
+    .foot-left{
+        margin-left: 200px;
+        margin-top: -1000px;
+    }
+
+    .foot-middle{
+        margin-left: 20px;
+        margin-top: -75px;
+    }
+    .foot-right{
+        margin-left: 20px;
+        margin-bottom: -25px;
+    }
+
+    .foot-para{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 9px;
+    }
+
+    .bag-kEdu{
+        margin-left: 11px;
     }
 }
